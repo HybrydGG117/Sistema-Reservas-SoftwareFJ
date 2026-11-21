@@ -1,0 +1,17 @@
+2026-11-21 15:42:55 | INFO | Cliente registrado exitosamente: Cliente [CLI-01] Laura Martínez | Doc: 1075234890 | Email: laura.martinez@correo.com
+2026-11-21 15:42:55 | INFO | Cliente registrado exitosamente: Cliente [CLI-02] Carlos Gómez | Doc: 79456123 | Email: carlos.gomez@empresa.co
+2026-11-21 15:42:55 | ERROR | Error registrando cliente [CLI-03]: Documento inválido: '12'. Debe ser numérico de mínimo 5 dígitos.
+2026-11-21 15:42:55 | INFO | Servicio creado exitosamente: Sala [SRV-01]: Sala Innovación Cloud (Capacidad: 25 pers.) - Base: $80,000/h
+2026-11-21 15:42:55 | INFO | Servicio creado exitosamente: Equipo [SRV-02]: Workstation Dell Precision (Gama: Profesional) - Base: $45,000/h
+2026-11-21 15:42:55 | INFO | Servicio creado exitosamente: Asesoría [SRV-03]: Arquitectura Microservicios (Área: DevOps) - Base: $120,000/h
+2026-11-21 15:42:55 | ERROR | Error creando servicio: La tarifa base (-50000) debe ser mayor a cero.
+2026-11-21 15:42:55 | INFO | Reserva RES-01 CONFIRMADA | Cliente: Laura Martínez | Sala [SRV-01]: Sala Innovación Cloud (Capacidad: 25 pers.) - Base: $80,000/h | Horas: 4 | Total: $358,785.00
+2026-11-21 15:42:55 | INFO | Auditoría de ejecución finalizada para reserva RES-01 (Estado actual: CONFIRMADA).
+2026-11-21 15:42:55 | INFO | Reserva RES-02 CONFIRMADA | Cliente: Carlos Gómez | Equipo [SRV-02]: Workstation Dell Precision (Gama: Profesional) - Base: $45,000/h | Horas: 5 | Total: $281,250.00
+2026-11-21 15:42:55 | INFO | Auditoría de ejecución finalizada para reserva RES-02 (Estado actual: CONFIRMADA).
+2026-11-21 15:42:55 | INFO | Auditoría de ejecución finalizada para reserva RES-03 (Estado actual: RECHAZADA).
+2026-11-21 15:42:55 | ERROR | Excepción controlada en reserva [RES-03]: Fallo al procesar la reserva RES-03 para Laura Martínez. -> Causa raíz: El servicio 'Arquitectura Microservicios' no está disponible actualmente.
+2026-11-21 15:42:55 | INFO | Auditoría de ejecución finalizada para reserva RES-04 (Estado actual: RECHAZADA).
+2026-11-21 15:42:55 | ERROR | Excepción controlada en reserva [RES-04]: Fallo al procesar la reserva RES-04 para Carlos Gómez. -> Causa raíz: El alquiler de equipos requiere un mínimo de 2 horas.
+2026-11-21 15:42:55 | INFO | Reserva RES-02 CANCELADA por solicitud del sistema/cliente.
+2026-11-21 15:42:55 | ERROR | Error controlado al intentar cancelar nuevamente: La reserva RES-02 ya se encontraba cancelada.
